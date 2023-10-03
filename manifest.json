@@ -1,0 +1,17 @@
+{
+    "name": "Asesoramiento para la crianza a preadolescentes",
+    "short_name": "Preadolescencia",
+    "theme_color": "#7824ea",
+    "background_color": "#fff",
+    "display": "standalone",
+    "orientation": "portrait",
+    "scope": "./",
+    "start_url": "./",
+    "icons": [
+        {
+            "src": "./Imagenes/Icono.png",
+            "type": "image.jpg",
+            "sizes": "423x751"
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="description" content="Página web dedicada al asesoramiento para la crianza a preadolescentes">
+    <title>CrianzaconAndrea</title>
+    <link rel="stylesheet" href="Estilos/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <link rel="manifest" href="manifest.json">
+    <script>
+        if("serviceWorker" in navigator){
+            navigator.serviceWorker.register("sw.js");
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="contenedor-logo">
+            <img src="Imagenes/Logo.jpg" alt="imagen de una mano de un niño sobre la mano de un adulto">
+        </div>
+        <div class="contenedor-texto">
+            <h1>Crianza Con Andrea</h1>
+            <p>Conviertete en el mejor tutor para tu preadolescente</p>
+        </div>
+        <div class="cont-carrito">
+            <a href="#">
+                <img src="Imagenes/carrito.png" alt="carrito de compras">
+                <div class="carrito__texto">
+                    <h5><em>Comprar eBook</em></h5>
+                </div></a>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="tips.html">Tips</a></li>
+            <li><a href="historias.html">Historias</a></li>
+            <li><a href="contactanos.html">Contactanos</a></li>
+            <li><a href="eBook.html">eBook</a></li>
+        </ul>
+    </nav>
+    <main class="ebook">
+        <div class="ebook__img">
+            <img src="Imagenes/eBook.png" class="img-eBook">
+            <img src="Imagenes/ofertaeBook.png" class="img-oferta">
+        </div>
+        <div class="ebook__boton--pago">
+            <button name="comprar" type="button" class="compra">Ir al carrito de compras</button>
+            <img src="Imagenes/carrito.png" alt="imagen carrito de compras">
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div>
+            <p>Copyright &copy; 2023 </p>
+        </div>
+        <div>
+            <h3>Siguenos en:</h3>
+        </div>
+        
+        <div class="footer-redes">
+                <div class="img__redes facebook"><a href="#"><img src="Imagenes/Facebook.png" alt="Imagen Facebook"></a></div>
+                <div class="img__redes instagram"><a href="#"><img src="Imagenes/Instagram.png" alt="Imagen Instagram"></a></div>
+                <div class="img__redes tiktok"><a href="#"><img src="Imagenes/tik-tok.png" alt="Imagen TikTok"></a></div>
+                <div class="img__redes telegram"><a href="#"><img src="Imagenes/Telegram.png" alt="Imagen Telegram"></a></div>
+        </div>
+    </footer>
+    
+</body>
+</html>
